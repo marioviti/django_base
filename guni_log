@@ -1,7 +1,0 @@
-[2017-08-06 16:02:53 +0200] [16989] [INFO] Starting gunicorn 19.7.1
-[2017-08-06 16:02:53 +0200] [16989] [INFO] Listening at: http://127.0.0.1:8000 (16989)
-[2017-08-06 16:02:53 +0200] [16989] [INFO] Using worker: sync
-[2017-08-06 16:02:53 +0200] [16993] [INFO] Booting worker with pid: 16993
-[2017-08-06 16:03:17 +0200] [16989] [INFO] Handling signal: int
-[2017-08-06 14:03:17 +0000] [16993] [INFO] Worker exiting (pid: 16993)
-[2017-08-06 16:03:17 +0200] [16989] [INFO] Shutting down: Master
