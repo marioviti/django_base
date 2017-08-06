@@ -60,6 +60,12 @@ Cosa comprende:
    * `$ python manage.py makemigrations`
    * `$ python manage.py migrate`
 
+* Crea un super user
+  * `python manage.py createsuperuser`
 
 * visualizzare l'applicazione da browser
   * `$ heroku open`
+
+* accedere al pannello admin:
+  * aggiungere `/admin` alla fine del nome del dominio nella barra del browser
+  * mettere le credenziali appena create
