@@ -1,2 +1,4 @@
-# Byte-compiled
+venv
 *.pyc
+staticfiles
+.env
