@@ -124,8 +124,7 @@ USE_TZ = True
 # https://devcenter.heroku.com/articles/python-concurrency-and-database-connections
 # Update database configuration with $DATABASE_URL.
 
-#db_from_env = dj_database_url.config(conn_max_age=500)
-db_from_env = dj_database_url.config()
+db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 DATABASES['default']['TEST'] = {'NAME': DATABASES['default']['NAME']}
 
